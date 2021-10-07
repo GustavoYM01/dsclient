@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.devsuperior.client.entities.Client;
 import com.devsuperior.client.repositories.ClientRepository;
@@ -12,9 +13,10 @@ import com.devsuperior.client.repositories.ClientRepository;
 public class ClientService {
 	
 	@Autowired
-	private ClientRepository client;
+	private ClientRepository repository;
 	
+	@Transactional(readOnly = true)
 	public List<Client> findAll() {
-		return client.findAll();
+		return repository.findAll();
 	}
 }
