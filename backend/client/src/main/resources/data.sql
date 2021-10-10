@@ -1,3 +1,10 @@
 INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Maria Silva', '12345678901', 6500.0, '1994-07-20T10:30:00Z', 2, NOW());
 INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('João dos Santos', '74927978764', 6500.0, '1999-07-20T10:30:00Z', 2, NOW());
 INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Eduarda Magalhães', '63445678519', 6500.0, '2000-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Maria Silva', '12345678901', 6500.0, '1994-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('João dos Santos', '74927978764', 6500.0, '1999-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Eduarda Magalhães', '63445678519', 6500.0, '2000-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Maria Silva', '12345678901', 6500.0, '1994-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('João dos Santos', '74927978764', 6500.0, '1999-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Eduarda Magalhães', '63445678519', 6500.0, '2000-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Maria Silva', '12345678901', 6500.0, '1994-07-20T10:30:00Z', 2, NOW());
